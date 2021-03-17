@@ -24,7 +24,8 @@ body{
    border: none;
    width: 40%;
    background-color: #15181C;
-   border-radius: 20px; 
+   border-radius: 20px;
+   color: white; 
 }
 .navigation > small{
     margin-left: 1rem;
@@ -38,7 +39,7 @@ section{
     color: white;    
 }
 section > p {
-    color: rgb(177, 177, 19);
+    color: rgb(122, 231, 231);
     padding: 1rem 18rem;
 }
 .section-header{  
@@ -47,6 +48,7 @@ section > p {
   padding: 0rem 18rem;
 }
 .sec-btn{
+    border: none;
     color:black;
     background-color:#FFCBA4;
     padding: 1rem;
@@ -55,4 +57,19 @@ section > p {
     border: white;
     margin: 2rem 33rem;
     font-size:large;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15181C;
+    padding:1.2rem;
+    margin-top: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    font-size: x-large;
+}
+.footer-header{
+    padding: 1rem 4rem
 }
