@@ -32,6 +32,7 @@ body {
 .divider {
   height: 0.07rem;
   background-color: #ffcba4;
+  margin: 2rem 0rem;
 }
 section {
   padding: 2rem;
@@ -130,5 +131,48 @@ section > p {
   border-radius: 0.75rem;
   margin: 1rem 1rem;
   position: relative;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
+}
+.primary-simple-alert {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  color: black;
+  background-color: #ffcba4;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.secondary-simple-alert {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  background-color: black;
+  color: #ffcba4;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.success-alert {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  background-color: #0f5132;
+  color: #d1e7dd;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.danger-alert {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  background-color: #842029;
+  color: #f8d7da;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.cross {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(248, 78, 78);
+  font-size: medium;
 }
