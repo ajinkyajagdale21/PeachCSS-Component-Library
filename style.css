@@ -176,3 +176,91 @@ section > p {
   background-color: rgb(248, 78, 78);
   font-size: medium;
 }
+.primary-button {
+  color: black;
+  background-color: #ffcba4;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.secondary-button {
+  background-color: black;
+  color: #ffcba4;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.success-button {
+  background-color: #0f5132;
+  color: #d1e7dd;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.danger-button {
+  background-color: #842029;
+  color: #f8d7da;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outline-primary-button {
+  color: #ffcba4;
+  background-color: #15181c;
+  border: 2px solid #ffcba4;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outline-secondary-button {
+  background-color: #15181c;
+  color: black;
+  border: 2px solid black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outline-success-button {
+  background-color: #15181c;
+  color: #0f5132;
+  border: 2px solid #0f5132;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outline-danger-button {
+  background-color: #15181c;
+  color: #842029;
+  border: 2px solid #842029;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
