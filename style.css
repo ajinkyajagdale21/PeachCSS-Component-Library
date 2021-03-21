@@ -6,7 +6,7 @@ body {
   color: #ffcba4;
   padding: 0rem 1rem;
 }
-.navigation {
+.navigations {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,7 +180,7 @@ section > p {
   color: black;
   background-color: #ffcba4;
   border: none;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   margin: 1rem;
   border-radius: 0.5rem;
   font-size: medium;
@@ -287,4 +287,128 @@ section > p {
   font-size: 0.75rem;
   font-weight: 600;
   border-radius: 00.25rem;
+}
+.mail,
+.carts {
+  position: relative;
+  padding: 0rem 0.5rem;
+}
+.mail-icon,
+.cart-icon {
+  position: absolute;
+  background-color: #ffcba4;
+  color: #15181c;
+  border-radius: 1rem;
+  top: -1.5rem;
+  left: 1.7rem;
+}
+.icon-badges {
+  display: flex;
+}
+.simple-card {
+  border: 1px solid #ffcba4;
+  width: 20%;
+  padding: 0.8rem 2rem;
+  margin: 1rem;
+}
+.vertical-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal-cards {
+  display: flex;
+}
+.card-img {
+  height: auto;
+  padding: 0.5rem;
+}
+.h-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ffcba4;
+  padding: 1rem;
+  margin: 1rem;
+}
+.modals {
+  border: 2px solid #ffcba4;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  margin: 1rem;
+  width: 50%;
+  position: relative;
+}
+.form-control {
+  background-color: #15181c;
+  color: #ffcba4;
+  border: 2px solid #ffcba4;
+  padding: 1rem;
+  font-size: large;
+  width: 90%;
+}
+.lists {
+  display: flex;
+}
+.unordered-lists {
+  background-color: #fcd102;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 0.7rem;
+}
+.ordered-lists {
+  background-color: #ffcba4;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 0.7rem;
+}
+.styled-lists {
+  background-color: #01093e;
+  color: lightblue;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 0.7rem;
+}
+.styled-lists > ul {
+  list-style-type: none;
+}
+
+.navigation {
+  background-color: #ffcba4;
+  color: black;
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  margin: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: black;
+}
+
+.navigation .link-active {
+  font-weight: bold;
 }
