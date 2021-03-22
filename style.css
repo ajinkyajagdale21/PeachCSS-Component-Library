@@ -26,8 +26,8 @@ body {
   border-radius: 20px;
   color: white;
 }
-.navigation > small {
-  margin-left: 1rem;
+.navigations > small {
+  margin-left: 2rem;
 }
 .divider {
   height: 0.07rem;
@@ -63,7 +63,7 @@ section > p {
 .footer {
   background-color: #15181c;
   padding-bottom: 0.01rem;
-  margin-top: 4.5rem;
+  margin-top: 0.8rem;
   border-top-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   font-size: large;
@@ -124,6 +124,7 @@ section > p {
   text-decoration: none;
   color: #ffcba4;
   padding-bottom: 0.6rem;
+  font-size: large;
 }
 .main-content {
   background-color: #15181c;
@@ -411,4 +412,63 @@ section > p {
 
 .navigation .link-active {
   font-weight: bold;
+}
+.avatars {
+  display: flex;
+}
+.avatar {
+  position: relative;
+  padding-left: 4rem;
+}
+.oncall-icon {
+  background-color: #842029;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.online-icon {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.images {
+  display: flex;
+  margin: 1rem;
+}
+.l-img {
+  width: 300px;
+  height: 300px;
+  padding: 2rem;
+}
+.m-img {
+  width: 200px;
+  height: 200px;
+  padding: 2rem;
+}
+.s-img {
+  width: 100px;
+  height: 100px;
+  padding: 2rem;
+}
+.row {
+  display: grid;
+  margin: 1rem;
+}
+.col {
+  border: 1px solid #ffcba4;
+  padding: 1rem;
+}
+.col-2 {
+  grid-template-columns: auto auto;
+}
+
+.col-3 {
+  grid-template-columns: auto auto auto;
 }
