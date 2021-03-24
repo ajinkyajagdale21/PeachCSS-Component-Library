@@ -40,12 +40,12 @@ section {
 }
 section > p {
   color: rgb(122, 231, 231);
-  padding: 2rem 18rem;
+  padding: 2rem 22rem;
 }
 .section-header {
   font-size: x-large;
   font-weight: bolder;
-  padding: 0rem 18rem;
+  padding: 0rem 22rem;
 }
 .sec-btn {
   border: none;
@@ -55,7 +55,7 @@ section > p {
   font-weight: 780;
   border-radius: 0.5rem;
   border: white;
-  margin: 1rem 33rem;
+  margin: 3rem 36rem;
   font-size: large;
   cursor: pointer;
   text-decoration: none;
@@ -63,7 +63,7 @@ section > p {
 .footer {
   background-color: #15181c;
   padding-bottom: 0.01rem;
-  margin-top: 0.8rem;
+  margin-top: 5.2rem;
   border-top-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   font-size: large;
@@ -75,6 +75,7 @@ section > p {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 11rem;
 }
 .list-non-bullet {
   list-style: none;
