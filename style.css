@@ -337,26 +337,34 @@ section {
 }
 .e-com {
   border: 1px solid black;
-  padding: 2rem;
-  margin: 2rem;
-  max-height: 350px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(255, 239, 226);
+  color: black;
+  width: 28%;
+}
+.e-com-img {
+  border: 1px solid rgb(32, 32, 32);
+  width: 250px;
+  height: 250px;
+  border-radius: 0.25rem;
 }
 .thumbnail {
   position: relative;
 }
 .wishlist {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0rem;
+  right: 0rem;
+  border-radius: 0.25rem;
 }
 .new {
-  color: white;
+  color: black;
   background-color: rgb(253, 185, 253);
-  border: 1px solid pink;
   border-radius: 0.25rem;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0rem;
+  left: 0rem;
 }
 .modals {
   border: 2px solid #ffcba4;
