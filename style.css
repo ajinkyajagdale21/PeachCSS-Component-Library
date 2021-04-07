@@ -335,6 +335,29 @@ section {
   padding: 1rem;
   margin: 1rem;
 }
+.e-com {
+  border: 1px solid black;
+  padding: 2rem;
+  margin: 2rem;
+  max-height: 350px;
+}
+.thumbnail {
+  position: relative;
+}
+.wishlist {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.new {
+  color: white;
+  background-color: rgb(253, 185, 253);
+  border: 1px solid pink;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 .modals {
   border: 2px solid #ffcba4;
   border-radius: 0.7rem;
